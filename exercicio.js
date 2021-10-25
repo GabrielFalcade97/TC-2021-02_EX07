@@ -32,4 +32,6 @@ console.log(scoreMaior4);
 
 
 // EXERCICIO 3: use map() para mudar o atributo appname para lowerCase
+apps.map((app) => app.appname = app.appname.toLowerCase());
+console.log(apps);
 
